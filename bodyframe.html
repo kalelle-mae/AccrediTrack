@@ -3,12 +3,21 @@
   <head>
     <title>Body</title>
     <style>
-      html,
-      body {
+      * {
         margin: 0;
         padding: 0;
-        width: 100%;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
         background-image: url("asset/pup_pillar.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
       }
     </style>
   </head>
