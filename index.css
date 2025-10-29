@@ -14,7 +14,7 @@ body {
   background-repeat: no-repeat;
   /* background-position: 130px 20px, center; */
   background-position: center;
-  margin-top: 60px;
+  margin-top: 10px;
 }
 
 .profile-img {
@@ -29,52 +29,4 @@ p {
   right: 0;
   bottom: 0;
   margin: 0;
-}
-
-/* LOGIN BUTTON */
-.login-container {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.login-btn {
-  display: inline-block;
-  padding: 0.45rem 0.9rem;
-  background: #ffffff;
-  color: #ff0404;
-  text-decoration: none;
-  border-radius: 6px;
-  font-weight: 600;
-  transition: background 0.15s ease;
-}
-
-.login-btn:hover {
-  background: #d41212;
-}
-
-/*<===== MAIN NAV =====> */
-
-.main-nav {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-}
-
-.main-nav ul {
-  display: flex;
-  gap: 10px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.main-nav li {
-  font-size: 1.2rem;
-  font-family: "Poppins";
-  color: #ffffff;
-}
-
-.main-nav li:hover {
-  color: #0a0a0a;
 }
