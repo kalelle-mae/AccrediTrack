@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Faculty Login - AccrediTrack</title>
+    <link rel="stylesheet" href="/css/auth.css" />
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Main Content -->
+    <div class="main-content">
+      <div class="login-card">
+        <div class="role-badge faculty-badge">
+          <div class="badge-text">Faculty Login</div>
+        </div>
+
+        <form>
+          <div class="form-group">
+            <label>
+              Email Address
+              <span class="required">*</span>
+            </label>
+            <div class="input-wrapper">
+              <input
+                type="email"
+                name="email"
+                placeholder="Enter your email address"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>
+              Password
+              <span class="required">*</span>
+            </label>
+            <div class="input-wrapper">
+              <input
+                type="password"
+                name="password"
+                placeholder="Enter your password"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="forgot-password">
+            <a href="forgot-password.html">Forgot your password?</a>
+          </div>
+
+          <a 
+            href="/html/role/faculty.html" 
+            target="_top" 
+            class="signin-btn faculty-signin signin-link">
+            Sign In as Faculty
+          </a>
+
+          <div class="create-account">
+            <a href="/html/header/login.html" target="bodyframe">
+              ← Back to Role Selection
+            </a>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </body>
+</html>
