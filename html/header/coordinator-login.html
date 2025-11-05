@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Coordinator Login - AccrediTrack</title>
+    <link rel="stylesheet" href="/css/auth.css" />
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Main Content -->
+    <div class="main-content">
+      <div class="login-card">
+        <div class="role-badge coordinator-badge">
+          <div class="badge-text">Coordinator Login</div>
+        </div>
+
+        <form>
+          <div class="form-group">
+            <label>
+              Email Address
+              <span class="required">*</span>
+            </label>
+            <div class="input-wrapper">
+              <input
+                type="email"
+                name="email"
+                placeholder="Enter your email address"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>
+              Password
+              <span class="required">*</span>
+            </label>
+            <div class="input-wrapper">
+              <input
+                type="password"
+                name="password"
+                placeholder="Enter your password"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="forgot-password">
+            <a href="forgot-password.html">Forgot your password?</a>
+          </div>
+
+          <a 
+            href="/html/role/coordinator.html" 
+            target="_top" 
+            class="signin-btn coordinator-signin signin-link">
+            Sign In as Coordinator
+          </a>
+
+          <div class="create-account">
+            <a href="/html/header/login.html">← Back to Role Selection</a>
+          </div>
+        </form>
+      </div>
+
+      <a href="/index.html" target="_parent" class="back-home-btn">
+        ← Back to Home
+      </a>
+    </div>
+  </body>
+</html>
