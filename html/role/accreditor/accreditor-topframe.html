@@ -11,7 +11,7 @@
         font-weight: bold;
         display: flex;
         align-items: center;
-        justify-content: space-between; /* added to push icons to the right */
+        justify-content: space-between; /* keeps icons to the right */
         padding: 15px 30px;
       }
 
@@ -22,14 +22,20 @@
       .right-icons {
         display: flex;
         align-items: center;
-        gap: 20px;
+        gap: 40px;
       }
 
-      .icon-placeholder {
-        width: 35px;
-        height: 35px;
-        background-color: #a33b33;
+      .right-icons img {
+        width: 25px;
+        height: 25px;
         border-radius: 50%;
+        object-fit: cover;
+        cursor: pointer;
+        transition: transform 0.2s ease;
+      }
+
+      .right-icons img:hover {
+        transform: scale(1.1);
       }
     </style>
     <link href="/css/header.css" rel="stylesheet" />
@@ -43,10 +49,10 @@
       </div>
     </a>
 
-    <!-- added right corner placeholders -->
+    <!-- added right corner icons -->
     <div class="right-icons">
-      <div class="icon-placeholder"></div>
-      <div class="icon-placeholder"></div>
+      <img src= "/asset/icons/notification.png" alt="Notification Icon" />
+      <img src="/asset/icons/profile.png" alt="Profile Icon" />
     </div>
   </body>
 </html>
