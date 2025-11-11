@@ -1,0 +1,110 @@
+<html>
+
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Verdana", sans-serif;
+        }
+
+        body {
+            background-color: #fafafa;
+            padding: 40px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+        }
+
+        th,
+        td {
+            padding: 14px 18px;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+        }
+
+        th {
+            background: #760e07;
+            color: #fff;
+            font-weight: 600;
+            font-size: 15px;
+        }
+
+        tr:hover td {
+            background-color: #f9fafb;
+        }
+
+        .title{
+            font-size: 22px;
+            font-weight: 600;
+        }
+
+        .status {
+            font-size: 14px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            padding: 4px 10px;
+            border-radius: 20px;
+        }
+
+        .status.approved {
+            background-color: rgb(119, 210, 119);
+            color:rgb(36, 105, 1);
+        }
+
+        .status.needs-revision {
+            color: #b00020;
+            background: #fec7c7;
+        }
+
+        .status.pending {
+            color: #8a6d00;
+            background: #fff8e1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="title">Submission History</div>
+    <table>
+        <tr>
+            <th>Document</th>
+            <th>Date Submitted</th>
+            <th>Related Task</th>
+            <th>Status</th>
+        </tr>
+        <tr>
+            <td>Research_Q2_2025.pdf</td>
+            <td>2025-11-05</td>
+            <td>Task 2</td>
+            <td><div class="status approved">Approved</div></td>
+        </tr>
+        <tr>
+            <td>Syllabus_2ndSem_v1.docx</td>
+            <td>2025-11-01</td>
+            <td>Task 3</td>
+            <td>
+                <div class="status needs-revision">⚠ Needs Revision</div>
+            </td>
+        </tr>
+        <tr>
+            <td>CV_Santos_Oct2025.pdf</td>
+            <td>2025-11-10</td>
+            <td>Task 1</td>
+            <td>
+                <div class="status pending">⏱ Pending</div>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
