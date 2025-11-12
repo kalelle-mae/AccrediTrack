@@ -380,19 +380,19 @@ body {
 }
 
 .admin-badge {
-  background: linear-gradient(135deg, #d81e10 0%, #b01808 100%);
+  background: linear-gradient(135deg, #d81e10 0%, #d81e10 100%);
 }
 
 .faculty-badge {
-  background: linear-gradient(135deg, #2a5298 0%, #1e3c72 100%);
+  background: linear-gradient(135deg, #d81e10 0%, #d81e10 100%);
 }
 
 .coordinator-badge {
-  background: linear-gradient(135deg, #27ae60 0%, #229954 100%);
+  background: linear-gradient(135deg, #d81e10 0%, #d81e10 100%);
 }
 
 .accreditor-badge {
-  background: linear-gradient(135deg, #8e44ad 0%, #7d3c98 100%);
+  background: linear-gradient(135deg, #d81e10 0%, #d81e10 100%);
 }
 
 /* Role-Specific Sign In Buttons */
@@ -405,27 +405,27 @@ body {
 }
 
 .faculty-signin {
-  background: linear-gradient(135deg, #2a5298 0%, #1e3c72 100%);
+  background: linear-gradient(135deg, #d81e10 0%, #d81e10 100%);
 }
 
 .faculty-signin:hover {
-  background: linear-gradient(135deg, #1e3c72 0%, #152d5a 100%);
+  background: linear-gradient(135deg, #d81e10 0%, #d81e10 100%);
 }
 
 .coordinator-signin {
-  background: linear-gradient(135deg, #27ae60 0%, #229954 100%);
+  background: linear-gradient(135deg, #d81e10 0%, #d81e10 100%);
 }
 
 .coordinator-signin:hover {
-  background: linear-gradient(135deg, #229954 0%, #1d8348 100%);
+  background: linear-gradient(135deg, #d81e10 0%, #d81e10 100%);
 }
 
 .accreditor-signin {
-  background: linear-gradient(135deg, #8e44ad 0%, #7d3c98 100%);
+  background: linear-gradient(135deg, #d81e10 0%, #d81e10 100%);
 }
 
 .accreditor-signin:hover {
-  background: linear-gradient(135deg, #7d3c98 0%, #6c3483 100%);
+  background: linear-gradient(135deg, #d81e10 0%, #d81e10 100%);
 }
 
 /* Responsive Design */
